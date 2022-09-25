@@ -185,7 +185,24 @@ li:hover{
   justify-content: start; 
   
 }
-
+.imgAmistad{
+  width: 300px;
+  height: 300px;
+  
+}
+.imgEnamorado{
+  width: 300px;
+  height: 300px;
+  transition: all 2s ease;
+}
+.imgEnamorado:hover{
+  
+  width: 400px;
+ 
+}  
+.imgAmistad:hover{
+  transform: scale(1.3, 1.3);
+}       
 
     
 .footer{
