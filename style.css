@@ -205,6 +205,13 @@ li:hover{
  
 }  
 
+.hospedaje{
+  width: 300px;
+  transition: all 3s ease;
+}
+.hospedaje:hover{
+  transform: rotate(10deg);
+}
     
 .footer{
   background-image: url(./imágenes/Gastronomia\ Lima.jpg);
@@ -214,7 +221,7 @@ li:hover{
   display: flex;
   justify-content: space-between;
   text-align: center;
-  background: radial-gradient(circle, red, rgb(241, 162, 175), rgb(245, 240, 238));
+  background: white
 }
 
 @media screen and (max-width:600px){
